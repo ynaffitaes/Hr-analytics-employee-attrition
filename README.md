@@ -8,17 +8,23 @@ The analysis covers 1,470 employee profiles, including 237 recorded departures, 
 
 ## Business Questions
 
-- How is the workforce distributed across departments, roles and demographic groups?
-- Which departments and roles have the highest departure proportions?
-- How do departures vary with tenure, overtime, satisfaction, travel and income?
-- Which employee groups should HR prioritise for further investigation?
+1. How is the workforce distributed by department, job role, age, gender and company tenure?
+2. What is the overall departure proportion, and how does it vary by department and job role?
+3. Do employees working overtime have a higher departure proportion?
+4. How does the departure proportion vary across job satisfaction and work-life balance levels?
+5. Are departures more common among employees who recently joined the company?
+6. Within comparable job roles and levels, do departure proportions differ by monthly income?
+7. Are business travel frequency and distance from home associated with departures?
+8. How do departure proportions vary by time in the current role and time since the last promotion?
+9. Which groups combine a large employee population with an elevated departure proportion?
+10. What actions should HR consider, and what additional information is needed to validate them?
 
 ## Tools and Approach
 
 - **Power Query:** checked data types, created age, tenure, distance and income groups, and added numerical sorting columns.
 - **DAX:** calculated employee counts, departure counts and departure proportions.
 - **Power BI:** built three interactive dashboard pages with filters, tooltips and reset buttons.
-- ** ChatGPT:** Used to write the report and help in drawing the recommendations
+- ** ChatGPT** Used to write the report and help in drawing the recommendations
 - **Claude:** Used to create the PowerPoint Presentations.
   
 
